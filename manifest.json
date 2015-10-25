@@ -12,6 +12,6 @@
     "default_title": "知乎看图"
   },
   "permissions": [
-    "tabs", "http://www.zhihu.com/"
+    "tabs", "http://www.zhihu.com/question/*"
   ]
 }
