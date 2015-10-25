@@ -1,13 +1,17 @@
 {
   "name": "知乎看图",
   "version": "1.0",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "description": "筛选知乎中带图片的回答",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
   "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
+    "default_icon": "icon1.png",
+    "default_title": "知乎看图"
   },
   "permissions": [
-    "http://api.flickr.com/"
+    "tabs", "http://www.zhihu.com/"
   ]
 }
